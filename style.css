@@ -10,9 +10,23 @@
 }
 /* NAVBAR end*/
 
-.section-sub-title{
-  font-family: 'Leckerli One', cursive;
+.carousel-item {
+  height: 42rem;
+}
+
+.carousel-caption{
+  bottom: 180px;
+ padding: 100px;
+}
+.carousel-caption h5{
   font-weight: bold;
+  font-size: 40px;
+}
+
+.slider-btn .btn1{
+  background-color: teal;
+  
+  font-size: 1rem;
 }
 
 
@@ -26,11 +40,7 @@
 
 
 
-
-
-
-
-/* Subscribe area
+/* contact order
 ================================================== */
 .subscribe {
   background: #ffb600;
@@ -74,7 +84,7 @@
   }
 }
 
-/* Newsletter */
+/* email */
 .ts-newsletter {
   background: #252525;
   position: relative;
@@ -130,7 +140,7 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-/* order */
+/* email end*/
 
 
 
@@ -138,6 +148,9 @@
 
 
 
+
+
+/* footer start*/
 
 .footer {
   background-color: #0d0d0d;
@@ -300,3 +313,5 @@
 #back-to-top .btn.btn-primary:hover {
   color: #fff;
 }
+
+/*footer end*/
