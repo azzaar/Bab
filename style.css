@@ -8,51 +8,21 @@
     text-decoration: none;
     
 }
+
+.navbar-toggler{
+  background-color: #ffb700;
+}
 /* NAVBAR end*/
 
-.carousel-item {
-  height: 42rem;
+
+
+.main{
+  width: 100%;
+  background-image: url(images/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  height: 45em;
 }
-
-.carousel-caption{
-  bottom: 180px;
- padding: 100px;
-}
-.carousel-caption h5{
-  font-weight: bold;
-  font-size: 40px;
-}
-
-.slider-btn .btn
-{
-  background-color: #ffb700;
-  color: white;
-  border: radius 0;
-  
-}
-
-.slide-title {
-  font-size: 20px;
-  line-height: 36px;
-  font-weight: 400;
-  color: #fff;
-  margin: 20px 0 10px;
-}
-
-
-
-.slide-sub-title {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 60px;
-  line-height: 58px;
-  margin: 20px 0;
-  color: #fff;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-}
-
-
 
 
 
