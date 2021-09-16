@@ -136,14 +136,38 @@
 
 /* email end*/
 
+/*contact start*/
+.main-container{
+  
+  padding: 80px;
+}
+
+.section-sub-title{
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.ts-service-box-content{
+  font-weight: bold;
+  font-display: inherit;
+}
+
+.mapouter{
+  padding-top: 100px;
+}
+
+.column-title{
+  font-weight: bold;
+  padding-top: 150px;
+  
+}
+
+.btn{
+  background-color: #ffb600;
+  color: whitesmoke;
+}
 
 
-
-
-
-
-
-
+/* contact end*/
 /* footer start*/
 
 .footer {
