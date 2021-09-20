@@ -33,12 +33,83 @@ html body{
 
 
 
+.site-navigation{
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+  width: 100%;
+}
 
+.main-head{
 
+  width: 100%;
+  height: 750px;
+  color: #fff;
+ 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   padding-top: 56px;
+   
+}
 
+.picimage{
+  
+  background-image: url(images/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width: 100%; 
+  height: 750px;
+  background-position-x: center;
 
+}
 
+.subtitle-head{
 
+  padding-top: 180px;
+  font-size: 3em;
+  letter-spacing: 10px;
+  animation: text 1s ease;
+  
+}
+@keyframes text{
+  0%{
+    transform: translateX(700px);
+
+  }
+  
+  100%{
+    transform: translateX(0);
+    
+  }
+}
+.sub-heading{
+  font-size: 2em;
+  padding: 15px;
+  letter-spacing: 5px;
+  animation: textr 1s ease;
+}
+@keyframes textr{
+  0%{
+    transform:translate(-550px);
+  }
+  100%{
+    transform:translate(0);
+  }
+}
+
+.sub-heading .btn{
+  margin-top: 30px;
+  animation: texte 1s ease  ;
+  
+  
+}
+@keyframes texte{
+  0%{
+    transform: translateY(350px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
 
 
 .subscribe {
