@@ -4,6 +4,7 @@ html body{
   overflow-x: hidden;
   margin: 0;
   padding: 0;
+  justify-content: center;
 }
 
 .bg-black{background-color: black;}
@@ -64,7 +65,7 @@ html body{
 
 .subtitle-head{
 
-  padding-top: 180px;
+  padding-top: 230px;
   font-size: 3em;
   letter-spacing: 10px;
   animation: text 1s ease;
